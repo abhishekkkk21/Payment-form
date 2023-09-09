@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<title>Pay here</title>
+<body>
+    <header>
+        <div  class="container">
+
+            <div class="left">
+                <h3>BILLING ADDRESS</h3>
+                <form method="get" action="confirm.php">
+                  Full name
+                  <input type="text" name="" placeholder="Enter name">
+                  Email
+                  <input type="text" name="" placeholder="Enter email">
+                  Address
+                  <input type="text" name="" placeholder="Enter address">
+                  City
+                  <input type="text" name="" placeholder="Enter City">
+                  <div id="zip">
+                    <label>
+                        State
+                        <select>
+                            <option>choose state..</option>
+                            <option>Ranchi</option>
+                            <option>Mumbai</option>
+                            <option>Delhi</option>
+                            <option>Bihar</option>
+                        </select>
+                    </label>
+                    <label>
+                        Zip Code
+                        <input type="number" name="" placeholder="Enter zip code">
+                    </label>
+                  </div>
+                </form>
+            </div>
+            <div class="right">
+            <h3>PAYMENT DETAILS</h3>
+            <form>
+                Accepted Cards <br>
+                <img src="images/visa.png" width="50">
+                <img src="images/mastercard.png" width="50">
+                <img src="images/amer exp.png" width="50"><br><br>
+                Choose Card<br>
+                <select>
+                    <option>choose Card..</option>
+                    <option>Visa</option>
+                    <option>mastercard</option>
+                    <option>Amr Expr</option>
+                    <option>Other..</option>
+                </select>
+               <br><br>
+                Card number
+                <input type="text" name="" placeholder="Enter no">
+                Card Exp Month
+                <input type="text" name="" placeholder="Enter Month ">
+                <div id="zip">
+                  <label>
+                      Exp Year
+                      <select>
+                          <option>choose Year..</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>others..</option>
+                      </select>
+                  </label>
+                  <label>
+                      CVV
+                      <input type="number" name="" placeholder="Enter cvv">
+                  </label>
+                </div>
+                <input type="submit" name="" value="Confirm"
+              </form>
+        </div>
+    </div>
+    </header>
+</body>
+</html>
